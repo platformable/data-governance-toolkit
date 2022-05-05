@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans,
+    Helvetica Neue, sans-serif;
+  color: #0f2d80;
+}
+
+#__next {
+  /* @apply sm:w-10/12 sm:ml-28 sm:mr-20; */
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+h1 {
+  @apply text-5xl font-bold;
+}
+h2 {
+  @apply text-4xl font-bold;
+}
+h3 {
+  @apply text-3xl font-semibold;
+}
+* {
+  box-sizing: border-box;
+}
+
+.bg-image-section {
+  background-image: url("../public/home-img/bg-img-hero-section.png");
+  background-size: cover;
+  height: 115vh;
+}
+
+.bg-main-color {
+  background-color: #dee9ff;
+}
+
+.bg-main-color-gradient {
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 1) 30%,
+    rgba(222, 233, 255, 1) 100%
+  );
+}
+
+.min-vh-120 {
+  min-height: 120vh;
+}
+
+.circular-container {
+  height: 300px;
+  width: 300px;
+  border-radius: 150%;
+  background-color: #f0f4ff;
+  padding: 7%;
+  margin: 4% 0;
+}

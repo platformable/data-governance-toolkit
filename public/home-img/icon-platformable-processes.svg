@@ -1,0 +1,12 @@
+<svg id="icon_platformabe_processes" data-name="icon platformabe processes" xmlns="http://www.w3.org/2000/svg" width="116.563" height="118.826" viewBox="0 0 116.563 118.826">
+  <g id="Group_1455" data-name="Group 1455" transform="translate(0 0)" style="mix-blend-mode: normal;isolation: isolate">
+    <g id="Ellipse_12" data-name="Ellipse 12" transform="translate(0 0)" fill="#dee9ff" stroke="#f5f8ff" stroke-width="3">
+      <ellipse cx="58.281" cy="59.413" rx="58.281" ry="59.413" stroke="none"/>
+      <ellipse cx="58.281" cy="59.413" rx="56.781" ry="57.913" fill="none"/>
+    </g>
+  </g>
+  <g id="Group_1456" data-name="Group 1456" transform="translate(24.513 25.645)">
+    <path id="Path_1362" data-name="Path 1362" d="M33.768,0,27.015,6.753,6.754,27.014,0,33.768l6.754,6.753L33.768,67.536l6.754-6.753L13.507,33.768,33.768,13.507,54.029,33.768,40.522,47.275l6.754,6.753L60.783,40.521l6.754-6.753-6.754-6.753L40.522,6.753Z" transform="translate(0)" fill="#0f2d80"/>
+    <rect id="Rectangle_756" data-name="Rectangle 756" width="10.506" height="10.506" transform="translate(26.339 33.768) rotate(-45)" fill="#0f2d80"/>
+  </g>
+</svg>

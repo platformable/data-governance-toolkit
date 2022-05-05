@@ -1,0 +1,27 @@
+<svg id="ensure_icon" data-name="ensure icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="207.941" height="198.963" viewBox="0 0 207.941 198.963">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Path_1177" data-name="Path 1177" d="M14.275,66.485c0,9.17,6.194,18.586,18.339,25.525,24.29,14.126,63.447,14.126,87.491,0,12.142-6.94,18.09-16.109,18.09-25.279V46.162c0,9.167-5.948,18.339-18.09,25.279-24.043,14.126-63.2,14.126-87.491,0C20.223,64.5,14.275,55.083,14.275,45.913Z" transform="translate(-14.275 -45.913)" fill="#425a9b" stroke="#425a9b" stroke-width="1"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <path id="Path_1183" data-name="Path 1183" d="M14.275,73.493c0,9.173,6.194,18.589,18.339,25.528,24.29,14.126,63.447,14.126,87.491,0,12.142-6.94,18.09-16.109,18.09-25.279V53.17c0,9.17-5.948,18.339-18.09,25.279-24.043,14.126-63.2,14.126-87.491,0C20.223,71.51,14.275,62.094,14.275,52.924Z" transform="translate(-14.275 -52.924)" fill="#607bc4" stroke="#607bc4" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Group_1167" data-name="Group 1167" transform="translate(41.888 100.625)" clip-path="url(#clip-path)">
+    <path id="Path_1176" data-name="Path 1176" d="M138.2,46.159V66.732c0,9.17-5.948,18.339-18.093,25.279-24.04,14.128-63.2,14.128-87.488,0-12.145-6.94-18.342-16.358-18.342-25.528V45.913c0,9.17,5.951,18.586,18.342,25.525,24.287,14.128,63.447,14.128,87.488,0C132.249,64.5,138.2,55.329,138.2,46.159" transform="translate(-14.277 -45.913)" fill="#425a9b" stroke="#425a9b" stroke-width="1"/>
+  </g>
+  <path id="Path_1178" data-name="Path 1178" d="M119.794,44.283c24.29,14.126,24.29,36.681.246,50.807s-63.2,14.128-87.488,0S8.266,58.409,32.306,44.283s63.2-14.128,87.488,0" transform="translate(27.674 31.064)" fill="#607bc4" stroke="#607bc4" stroke-width="1"/>
+  <path id="Path_1179" data-name="Path 1179" d="M138.2,60.181V80.754c0,9.17-5.948,18.339-18.093,25.279-24.04,14.128-63.2,14.128-87.488,0C20.471,99.093,14.274,89.674,14.274,80.5V59.935c0,9.17,5.951,18.586,18.342,25.525,24.287,14.128,63.447,14.128,87.488,0,12.145-6.94,18.093-16.109,18.093-25.279" transform="translate(27.611 81.834)" fill="#dee9ff" stroke="#dee9ff" stroke-width="1"/>
+  <g id="Group_1171" data-name="Group 1171" transform="translate(41.888 121.197)" clip-path="url(#clip-path-2)">
+    <path id="Path_1182" data-name="Path 1182" d="M138.2,53.17V73.743c0,9.17-5.948,18.339-18.093,25.279-24.04,14.128-63.2,14.128-87.488,0-12.145-6.94-18.342-16.358-18.342-25.528V52.924c0,9.17,5.951,18.586,18.342,25.525,24.287,14.128,63.447,14.128,87.488,0C132.249,71.51,138.2,62.34,138.2,53.17" transform="translate(-14.277 -52.924)" fill="#607bc4" stroke="#607bc4" stroke-width="1"/>
+  </g>
+  <path id="Path_1184" data-name="Path 1184" d="M30.154,87.263,45.521,71.9,60.887,87.263V25.3H30.154Z" transform="translate(58.327 14.849)" fill="#0f2d80"/>
+  <path id="Path_1185" data-name="Path 1185" d="M53.689,11.62A27.758,27.758,0,1,1,25.931,39.378,27.757,27.757,0,0,1,53.689,11.62" transform="translate(50.159 -11.62)" fill="#c6d7fc"/>
+  <path id="Path_1186" data-name="Path 1186" d="M31.421,28.883l6.693,6.444,16.6-16.359" transform="translate(60.778 2.594)" fill="none" stroke="#0f2d80" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+  <path id="Path_1187" data-name="Path 1187" d="M68.921,32.256l-11.4,7.931L70.655,44.4l4.214,13.134,7.931-11.4,13.879.246L88.5,35.232,92.961,22.1l-13.137,4.46-11.15-8.178Z" transform="translate(111.262 1.451)" fill="#ffa200"/>
+  <line id="Line_62" data-name="Line 62" x1="14.871" y2="14.871" transform="translate(161.842 60.475)" fill="none" stroke="#dee9ff" stroke-linecap="round" stroke-width="6"/>
+  <line id="Line_63" data-name="Line 63" x1="7.435" y2="7.435" transform="translate(156.39 51.552)" fill="none" stroke="#dee9ff" stroke-linecap="round" stroke-width="6"/>
+  <path id="Path_1188" data-name="Path 1188" d="M28.007,32.256,39.16,40.188,26.023,44.4,21.81,57.535l-7.928-11.4L0,46.382l8.427-11.15L3.967,22.1,17.1,26.555l11.15-8.178Z" transform="translate(0.001 1.451)" fill="#ffa200"/>
+  <line id="Line_64" data-name="Line 64" x2="14.871" y2="14.871" transform="translate(31.478 60.475)" fill="none" stroke="#dee9ff" stroke-linecap="round" stroke-width="6"/>
+  <line id="Line_65" data-name="Line 65" x2="7.435" y2="7.435" transform="translate(44.118 51.552)" fill="none" stroke="#dee9ff" stroke-linecap="round" stroke-width="6"/>
+</svg>

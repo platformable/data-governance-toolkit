@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="137.581" height="142.448" viewBox="0 0 137.581 142.448">
+  <g id="icon_community_organisation" data-name="icon community organisation" transform="translate(0 0)">
+    <g id="Group_1453" data-name="Group 1453" transform="translate(0 0)">
+      <g id="Ellipse_12" data-name="Ellipse 12" transform="translate(13.296 30.764)" fill="#dee9ff" stroke="#f5f8ff" stroke-width="3">
+        <ellipse cx="54.779" cy="55.842" rx="54.779" ry="55.842" stroke="none"/>
+        <ellipse cx="54.779" cy="55.842" rx="53.279" ry="54.342" fill="none"/>
+      </g>
+      <path id="Path_1059" data-name="Path 1059" d="M16.892,46.473a12.68,12.68,0,1,1-12.68,12.68,12.683,12.683,0,0,1,12.68-12.68" transform="translate(2.131 25.384)" fill="#0f2d80"/>
+      <path id="Path_1061" data-name="Path 1061" d="M16.892,46.473a12.68,12.68,0,1,1-12.68,12.68,12.683,12.683,0,0,1,12.68-12.68" transform="translate(101.668 25.384)" fill="#0f2d80"/>
+      <path id="Path_1063" data-name="Path 1063" d="M16.892,46.473a12.68,12.68,0,1,1-12.68,12.68,12.683,12.683,0,0,1,12.68-12.68" transform="translate(51.253 -46.473)" fill="#0f2d80"/>
+      <path id="Path_1060" data-name="Path 1060" d="M38.044,84.862A19.022,19.022,0,0,0,0,84.862" transform="translate(0 35.18)" fill="#0f2d80"/>
+      <path id="Path_1062" data-name="Path 1062" d="M38.044,84.862A19.022,19.022,0,0,0,0,84.862" transform="translate(99.537 35.18)" fill="#0f2d80"/>
+      <path id="Path_1064" data-name="Path 1064" d="M38.044,84.862A19.022,19.022,0,0,0,0,84.862" transform="translate(49.122 -36.677)" fill="#0f2d80"/>
+    </g>
+    <path id="Union_17" data-name="Union 17" d="M32.65,54.677a1.032,1.032,0,0,1-1.025-1.038V51.5a.931.931,0,0,0-.925-.937H17.392a.932.932,0,0,0-.926.937v2.139a1.031,1.031,0,0,1-1.024,1.038H1.024A1.031,1.031,0,0,1,0,53.639V23.693a1.029,1.029,0,0,1,1.023-1.035H8.206a.932.932,0,0,0,.925-.937V18.412a1.028,1.028,0,0,1,1.022-1.035H23.037V1.077A1.063,1.063,0,0,1,25.119.762C26.462.649,30.619.355,32.1.8c3.953,1.19,6.213.544,7.041.187a.266.266,0,0,1,.367.248v9.035a.271.271,0,0,1-.172.252c-.807.3-4.285,1.425-7.236-.068-1.367-.691-5.526-.241-6.934-.064v6.988h12.9a1.029,1.029,0,0,1,1.022,1.035v3.309a.933.933,0,0,0,.926.937h7.052a1.029,1.029,0,0,1,1.024,1.035V53.639a1.031,1.031,0,0,1-1.024,1.038Z" transform="translate(44.746 57.198)" fill="#0f2d80" stroke="rgba(0,0,0,0)" stroke-width="1"/>
+  </g>
+</svg>
