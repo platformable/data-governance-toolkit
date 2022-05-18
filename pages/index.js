@@ -58,14 +58,14 @@ export default function Home() {
           </section>
         </div>
 
-        <section className="flex flex-col py-9 items-center ">
-          <h2 className="w-9/12  text-left">
+        <section className="flex flex-col py-9 px-20 items-center ">
+          <h2 className="text-left">
             Data collected through your activities has the power to transform
             your organisation and lead to:
           </h2>
           {/* justify-around items-center */}
-          <ul className="w-9/12 flex flex-col md:grid md:grid-cols-2  lg:grid-cols-5 lg:w-11/12 md:gap-7 font-bold p-4">
-            <li className=" h-64  shadow-xl rounded-lg p-4 my-6 block text-center  lg:h-72">
+          <ul className="flex flex-col md:grid md:grid-cols-2  lg:grid-cols-5  md:gap-14 font-bold p-4">
+            <li className=" h-64  shadow-xl rounded-lg p-4 my-6 block text-center lg:h-72">
               <figure className="mt-5">
                 <Image
                   src={icon01Section01}
@@ -133,35 +133,35 @@ export default function Home() {
             </li>
           </ul>
         </section>
-        <section className="min-vh-150 px-3 md:px-28 flex flex-col justify-around text-center bg-main-color-gradient">
+        <section className="min-vh-150 px-3 md:px-20 flex flex-col justify-around text-center bg-main-color-gradient">
           <h2 className=" font-semibold py-4 md:mb-7 tracking-wide mt-10 md:h-1/5">
             The <strong>Data Governance Toolkit</strong> platform helps you
             ensure that you have the policies, processes and datasets collected
             in one place to help you manage your data
           </h2>
-          <ul className="flex flex-col text-left  text-2xl mt-10 md:mt-0 md:text-lg md:grid md:grid-cols-2 xl:w-full xl:flex xl:flex-row md:h-2/5 justify-between">
-            <li className="font-semibold  px-6 flex">
+          <ul className="flex flex-col text-left  mt-10 md:mt-0 md:text-lg md:grid md:grid-cols-2 xl:w-full xl:flex xl:flex-row md:h-2/5 justify-between">
+            <li className="font-bold text-xl  px-6 flex">
               <p className="mr-4">&#10004;</p> Practical
             </li>
-            <li className="font-semibold  px-6 flex">
+            <li className="font-bold text-xl  px-6 flex">
               <p className="mr-4">&#10004;</p> Ethical
             </li>
-            <li className="font-semibold  px-6 flex">
+            <li className="font-bold text-xl  px-6 flex">
               <p className="mr-4">&#10004;</p>
               Privacy-focused
             </li>
-            <li className="font-semibold  px-6 flex">
+            <li className="font-bold text-xl  px-6 flex">
               <p className="mr-4">&#10004;</p>
               Regulatory compilant
             </li>
 
-            <li className="font-semibold  px-6 flex">
+            <li className="font-bold text-xl  px-6 flex">
               <p className="mr-4">&#10004;</p> Responsible
             </li>
-            <li className="font-semibold  px-6 flex">
+            <li className="font-bold text-xl  px-6 flex">
               <p className="mr-4">&#10004;</p> Equitable
             </li>
-            <li className="font-semibold  px-6 flex">
+            <li className="font-bold text-xl  px-6 flex">
               <p className="mr-4">&#10004;</p> Secure
             </li>
           </ul>
@@ -178,14 +178,16 @@ export default function Home() {
                 height={150}
                 alt="evidence-based investmenst and program decisions"
               ></Image>
+              <p className="text-2xl font-bold ">Community <br/> Organisation</p>
             </div>
             <div className="w-48 bg-main-color rounded-lg border-solid border-2 border-yellow-400 p-5 md:row-start-2">
               <Image
                 src={iconPlatformableProcesses}
-                width={200}
-                height={220}
+                width={130}
+                height={150}
                 alt="evidence-based investmenst and program decisions"
               ></Image>
+              <p className="text-2xl font-bold ">Platformable <br/> Processes</p>
             </div>
           </div>
         </section>

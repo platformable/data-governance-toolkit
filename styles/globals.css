@@ -37,7 +37,7 @@ h3 {
 }
 
 .bg-main-color {
-  background-color: #dee9ff;
+  background-color: #DEE9FF;
 }
 
 .bg-main-color-gradient {
@@ -47,7 +47,9 @@ h3 {
     rgba(222, 233, 255, 1) 100%
   );
 }
-
+.bg-yellow-cream {
+  background-color: #FFE8BF;
+}
 .min-vh-120 {
   min-height: 120vh;
 }
@@ -59,4 +61,35 @@ h3 {
   background-color: #f0f4ff;
   padding: 7%;
   margin: 4% 0;
+}
+
+.dialog-section {
+  margin-top: -10px;
+}
+.dialog-section::before {
+  content: "";
+  width: 0;
+  height: 0;
+  border: 15px solid transparent;
+  border-top: 0px ;
+  top: -30px;
+  left: 43%;
+  position: relative;
+  border-bottom: 30px solid #DEE9FF; 
+}
+#components-section-data-processes-page {
+  background: transparent linear-gradient(180deg,#DEE9FF 10%, #DFEAFF 50%,#F5F8FF 100%) 0% 0% no-repeat padding-box;
+}
+
+
+
+@media (min-width: 1024px) {
+  .dialog-section::before {
+    left: 38%;
+  }
+}
+@media (min-width: 1280px) {
+  .dialog-section::before {
+    left: 43%;
+  }
 }

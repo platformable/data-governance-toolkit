@@ -14,24 +14,24 @@ export default function Navigator() {
             height={50}
             alt="platformable-logo"
           ></Image>
-          <li className="p-3">
+          <li className="p-3 cursor-pointer">
             <Link href="/">
-              <a>Home</a>
+              <a className="font-bold trackin-wide">Home</a>
             </Link>
           </li>
-          <li className="p-3">
+          <li className="p-3 cursor-pointer">
             <Link href="/communityOrganizations">
-              <a>Community Organizations</a>
+              <a className="font-bold trackin-wide">Community Organizations</a>
             </Link>
           </li>
-          <li className="p-3">
+          <li className="p-3 cursor-pointer">
             <Link href="/dataGovernanceProcesses">
-              <a>Our Data Governance processes</a>
+              <a className="font-bold trackin-wide">Our Data Governance processes</a>
             </Link>
           </li>
-          <li className="p-3">
-            <Link href="">
-              <a>About Us</a>
+          <li className="p-3 cursor-pointer">
+            <Link href="https://platformable.com/">
+              <a className="font-bold trackin-wide">About Us</a>
             </Link>
           </li>
         </ul>
