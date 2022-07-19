@@ -12,9 +12,9 @@ import keyFeatures02 from "../public/community-org-img/key-features-02.svg";
 import keyFeatures03 from "../public/community-org-img/key-features-03.svg";
 import keyFeatures04 from "../public/community-org-img/key-features-04.svg";
 import keyFeatures05 from "../public/community-org-img/key-features-05.svg";
-//import keyFeatures06 from '../public/community-org-img/key-features-06.svg'
+import keyFeatures06 from '../public/community-org-img/key-features-06.png'
 import keyFeatures07 from "../public/community-org-img/key-features-07.svg";
-//import keyFeatures08 from '../public/community-org-img/key-features-08.svg'
+import keyFeatures08 from '../public/community-org-img/key-features-08.png'
 import outcomes01 from "../public/community-org-img/outcomes-01.svg";
 import outcomes02 from "../public/community-org-img/outcomes-02.svg";
 import outcomes03 from "../public/community-org-img/outcomes-03.svg";
@@ -23,7 +23,7 @@ export default function CommunityOrganizations() {
   return (
     <>
       <Layout>
-        <main className=" min-h-screen  py-24 top-0 px-26  md:pt-18 bg-main-color-gradient flex flex-col items-center">
+        <main className="py-24 top-0 px-26  md:pt-18 bg-main-color-gradient flex flex-col items-center">
           <Head>
             <title>Data Governance Toolkit</title>
             <meta
@@ -39,7 +39,7 @@ export default function CommunityOrganizations() {
               <h2 className="mt-14 mb-5 tracking-wide md:self-start">
                 Data governance for community organizations
               </h2>
-              <div className="h-6/12 font-bold text-2xl text-left my-5 border-solid border-2 rounded-xl border-yellow-400 p-5">
+              <div className="h-6/12 font-bold text-2xl text-center my-5 border-solid border-2 rounded-xl border-yellow-400 px-7 p-5">
                 Data is a necessary asset for community-based organizations when
                 working to meet your goals and reduce societal inequalities
               </div>
@@ -94,15 +94,15 @@ export default function CommunityOrganizations() {
               <h2 className="my-8 trackin-wide">
                 The Data Governance Toolkit platform
               </h2>
-              <p className="my-8 text-xl  leading-relaxed">
+              <p className="my-8 text-2xl ">
                 Our data governance toolkit has been used by large community
                 health organizations across the United States and smaller
                 agencies looking to improve data collection and reporting for a
                 single program
               </p>
-              <div className="my-16 text-2xl font-bold  rounded-xl text-center border-solid border-2 border-yellow-400 p-5 leading-snug">
+              <div className="my-16 text-2xl font-bold  rounded-xl text-center border-solid border-2 border-yellow-400 p-5  leading-snug">
                 <strong>Platformable`s Data Governance Toolkit</strong> helps
-                agencies use best practices in data governance and can be
+                agencies use best practices in <br/>data governance and can be
                 customized to specific funding goals by addressing keydata
                 governance components in a stepwise manner
               </div>
@@ -111,7 +111,7 @@ export default function CommunityOrganizations() {
           <section className="px-8 bg-main-color-gradient w-full">
             <div className="mt-10 text-center">
               <h2 className="py-7 tracking-wide">Key features</h2>
-              <ul className="text-center text-lg font-semibold tracking-wide md:grid md:grid-cols-2 xl:grid-cols-4">
+              <ul className="text-center text-lg font-semibold tracking-wide md:grid md:grid-cols-2 xl:grid-cols-4 gap-10">
                 <li className="pt-11 md:pt-7 pb-7">
                   <figure>
                     <Image
@@ -122,7 +122,7 @@ export default function CommunityOrganizations() {
                     ></Image>
 
                     <figcaption>
-                      Uses widely- used and often free tools
+                      Uses widely-used<br/> and often free tools
                     </figcaption>
                   </figure>
                 </li>
@@ -180,16 +180,14 @@ export default function CommunityOrganizations() {
                     <figcaption>Secure and safe</figcaption>
                   </figure>
                 </li>
-                <li className="p-7">
-                  <figure>
+                <li className="p-7 flex items-center ">
+                  <figure className="self-end lg:self-auto">
                     <Image
-                      src={keyFeatures01}
-                      width={130}
-                      height={145}
+                      src={keyFeatures06}
                       alt="GDPR and CPAA and data privacy compliant"
                     ></Image>
 
-                    <figcaption>
+                    <figcaption className="pt-7">
                       GDPR and CPAA and data privacy compliant
                     </figcaption>
                   </figure>
@@ -212,7 +210,7 @@ export default function CommunityOrganizations() {
                 <li className="p-7">
                   <figure>
                     <Image
-                      src={keyFeatures01}
+                      src={keyFeatures08}
                       width={130}
                       height={145}
                       alt="Able to connect to other data sets to measure impact on long term outcomes over time"
