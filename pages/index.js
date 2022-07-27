@@ -25,7 +25,7 @@ export default function Home() {
           <link rel="icon" href="/platformable-icon-logo.svg" />
         </Head>
         <div className="bg-image-section">
-          <section className=" container flex flex-col px-8 pt-28 sm:h-screen md:grid  md:pt-18  grid-cols-2 grid-rows-7 gap-9 sm:gap-2">
+          <section className=" container flex flex-col px-8 pt-28 pb-7 sm:h-screen md:grid  md:pt-18  grid-cols-2 grid-rows-7 gap-9 sm:gap-2">
             <h1 className="col-start-2  row-start-2 self-center">
               Data that works for you
             </h1>
@@ -47,25 +47,25 @@ export default function Home() {
               coordinate all of their data activities and data management in one
               place
             </p>
-            <div className="col-start-2 row-start-6 md:place-self-start md:justify-self-center md:w-full flex ">
-              <button className="w-5/12 rounded-md sm:min-h-10 bg-blue-900 px-3 py-1 mr-6 text-white font-semibold tracking-wide">
+            <div className="col-start-2 row-start-6 md:place-self-start md:justify-self-center md:w-full md:flex grid grid-cols-2 gap-3">
+              <button className="md:w-5/12 rounded-md sm:min-h-10 bg-blue-900 px-3 py-1 mr-6 text-white font-semibold tracking-wide">
                 Demo our product
               </button>
-              <button className="w-5/12 rounded-md sm:min-h-10 bg-yellow-500 px-3 py-1  font-semibold tracking-wide ">
+              <button className="md:w-5/12 rounded-md sm:min-h-10 bg-yellow-500 px-3 py-1  font-semibold tracking-wide ">
                 Contact us
               </button>
             </div>
           </section>
         </div>
 
-        <section className="flex flex-col py-9 items-center ">
-          <h2 className="w-9/12  text-left">
+        <section className="flex flex-col py-9 px-14 md:px-20 items-center ">
+          <h3 className="text-left">
             Data collected through your activities has the power to transform
             your organisation and lead to:
-          </h2>
-          {/* justify-around items-center */}
-          <ul className="w-9/12 flex flex-col md:grid md:grid-cols-2  lg:grid-cols-5 lg:w-11/12 md:gap-7 font-bold p-4">
-            <li className=" h-64  shadow-xl rounded-lg p-4 my-6 block text-center  lg:h-72">
+          </h3>
+
+          <ul className="flex flex-col md:grid md:grid-cols-2  lg:grid-cols-5  md:gap-14 font-bold py-5">
+            <li className=" h-64  shadow-xl rounded-lg p-4 my-6 block text-center lg:h-72">
               <figure className="mt-5">
                 <Image
                   src={icon01Section01}
@@ -133,40 +133,40 @@ export default function Home() {
             </li>
           </ul>
         </section>
-        <section className="min-vh-150 px-3 md:px-28 flex flex-col justify-around text-center bg-main-color-gradient">
-          <h2 className=" font-semibold py-4 md:mb-7 tracking-wide mt-10 md:h-1/5">
+        <section className="min-vh-150 px-3 md:px-20 flex flex-col justify-around text-center bg-main-color-gradient">
+          <h3 className=" font-semibold py-4 md:mb-7 tracking-wide mt-10 md:h-1/5">
             The <strong>Data Governance Toolkit</strong> platform helps you
             ensure that you have the policies, processes and datasets collected
             in one place to help you manage your data
-          </h2>
-          <ul className="flex flex-col text-left  text-2xl mt-10 md:mt-0 md:text-lg md:grid md:grid-cols-2 xl:w-full xl:flex xl:flex-row md:h-2/5 justify-between">
-            <li className="font-semibold  px-6 flex">
+          </h3>
+          <ul className="flex flex-col text-left  mt-10 md:mt-0 md:text-lg md:grid md:grid-cols-2 xl:w-full xl:flex xl:flex-row md:h-2/5 justify-between">
+            <li className="font-bold text-xl  px-6 flex">
               <p className="mr-4">&#10004;</p> Practical
             </li>
-            <li className="font-semibold  px-6 flex">
+            <li className="font-bold text-xl  px-6 flex">
               <p className="mr-4">&#10004;</p> Ethical
             </li>
-            <li className="font-semibold  px-6 flex">
+            <li className="font-bold text-xl  px-6 flex">
               <p className="mr-4">&#10004;</p>
               Privacy-focused
             </li>
-            <li className="font-semibold  px-6 flex">
+            <li className="font-bold text-xl  px-6 flex">
               <p className="mr-4">&#10004;</p>
               Regulatory compilant
             </li>
 
-            <li className="font-semibold  px-6 flex">
+            <li className="font-bold text-xl  px-6 flex">
               <p className="mr-4">&#10004;</p> Responsible
             </li>
-            <li className="font-semibold  px-6 flex">
+            <li className="font-bold text-xl  px-6 flex">
               <p className="mr-4">&#10004;</p> Equitable
             </li>
-            <li className="font-semibold  px-6 flex">
+            <li className="font-bold text-xl  px-6 flex">
               <p className="mr-4">&#10004;</p> Secure
             </li>
           </ul>
 
-          <div className="grid grid-rows-2 md:grid-cols-2 gap-5 py-2 md:gap-6 md:pb-7 self-center justify-items-center  md:h-2/5 md:justify-evenly ">
+          <div className="grid  md:grid-cols-2 gap-7 py-12 md:gap-9 self-center justify-items-center  md:h-2/5 md:justify-evenly ">
             <h3 className="text-3xl font-bold  self-center md:col-span-full">
               Learn more
             </h3>
@@ -178,14 +178,20 @@ export default function Home() {
                 height={150}
                 alt="evidence-based investmenst and program decisions"
               ></Image>
+              <p className="text-2xl font-bold ">
+                Community <br /> Organisation
+              </p>
             </div>
             <div className="w-48 bg-main-color rounded-lg border-solid border-2 border-yellow-400 p-5 md:row-start-2">
               <Image
                 src={iconPlatformableProcesses}
-                width={200}
-                height={220}
+                width={130}
+                height={150}
                 alt="evidence-based investmenst and program decisions"
               ></Image>
+              <p className="text-2xl font-bold ">
+                Platformable <br /> Processes
+              </p>
             </div>
           </div>
         </section>

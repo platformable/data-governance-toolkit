@@ -33,7 +33,7 @@ h3 {
 .bg-image-section {
   background-image: url("../public/home-img/bg-img-hero-section.png");
   background-size: cover;
-  height: 115vh;
+  /* height: 115vh; */
 }
 
 .bg-main-color {
@@ -47,7 +47,9 @@ h3 {
     rgba(222, 233, 255, 1) 100%
   );
 }
-
+.bg-yellow-cream {
+  background-color: #ffe8bf;
+}
 .min-vh-120 {
   min-height: 120vh;
 }
@@ -59,4 +61,35 @@ h3 {
   background-color: #f0f4ff;
   padding: 7%;
   margin: 4% 0;
+}
+
+.dialog-section {
+  margin-top: -10px;
+}
+.dialog-section::before {
+  content: "";
+  width: 0;
+  height: 0;
+  border: 15px solid transparent;
+  border-top: 0px;
+  top: -30px;
+  left: 43%;
+  position: relative;
+  border-bottom: 30px solid #dee9ff;
+}
+#components-section-data-processes-page {
+  background: transparent
+    linear-gradient(180deg, #dee9ff 10%, #dfeaff 50%, #f5f8ff 100%) 0% 0%
+    no-repeat padding-box;
+}
+
+@media (min-width: 1024px) {
+  .dialog-section::before {
+    left: 38%;
+  }
+}
+@media (min-width: 1280px) {
+  .dialog-section::before {
+    left: 43%;
+  }
 }
