@@ -12,9 +12,9 @@ import keyFeatures02 from "../public/community-org-img/key-features-02.svg";
 import keyFeatures03 from "../public/community-org-img/key-features-03.svg";
 import keyFeatures04 from "../public/community-org-img/key-features-04.svg";
 import keyFeatures05 from "../public/community-org-img/key-features-05.svg";
-import keyFeatures06 from '../public/community-org-img/key-features-06.png'
+import keyFeatures06 from '../public/community-org-img/key-features-06.png';
 import keyFeatures07 from "../public/community-org-img/key-features-07.svg";
-import keyFeatures08 from '../public/community-org-img/key-features-08.png'
+import keyFeatures08 from '../public/community-org-img/key-features-08.png';
 import outcomes01 from "../public/community-org-img/outcomes-01.svg";
 import outcomes02 from "../public/community-org-img/outcomes-02.svg";
 import outcomes03 from "../public/community-org-img/outcomes-03.svg";
@@ -183,8 +183,9 @@ export default function CommunityOrganizations() {
                 <li className="p-7 flex items-center ">
                   <figure className="self-end lg:self-auto">
                     <Image
-                      src={keyFeatures06}
+                      src="/community-org-img/key-features-06.png"
                       alt="GDPR and CPAA and data privacy compliant"
+                      width="309" height="75"
                     ></Image>
 
                     <figcaption className="pt-7">
@@ -210,7 +211,7 @@ export default function CommunityOrganizations() {
                 <li className="p-7">
                   <figure>
                     <Image
-                      src={keyFeatures08}
+                      src={'/community-org-img/key-features-08.png'}
                       width={130}
                       height={145}
                       alt="Able to connect to other data sets to measure impact on long term outcomes over time"
