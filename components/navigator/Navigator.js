@@ -8,7 +8,7 @@ export default function Navigator() {
   const [showMenu, setShowMenu] = useState(false);
   return (
     <header>
-      <nav className="p-5 hidden sm:block  absolute w-full  bg-transparent">
+      <nav className="p-5 px-14 hidden sm:block absolute w-full bg-transparent">
         <ul className="flex justify-between">
           <Image
             src={iconLogo}
@@ -86,20 +86,22 @@ export default function Navigator() {
       >
         <ul>
           <Link href="/">
-            <li className="underline font-semibold hover:text-white">Home</li>
+            <li className="underline font-semibold hover:text-white py-3">
+              Home
+            </li>
           </Link>
           <Link href="/communityOrganizations">
-            <li className="underline font-semibold hover:text-white">
+            <li className="underline font-semibold hover:text-white py-3">
               Community Organizations
             </li>
           </Link>
           <Link href="/dataGovernanceProcesses">
-            <li className="underline font-semibold hover:text-white">
+            <li className="underline font-semibold hover:text-white py-3">
               Our Data Governance Processes
             </li>
           </Link>
           <Link href="https://platformable.com/about">
-            <li className="underline font-semibold hover:text-white">
+            <li className="underline font-semibold hover:text-white py-3">
               About Us
             </li>
           </Link>
