@@ -208,9 +208,9 @@ export default function DataGovernanceProcesses() {
                   </div>
                   <div className="h-3/6 bg-yellow-cream pt-2  flex flex-col items-center justify-items-center rounded-b-2xl">
                     <Image width={40} height={45} src={internallyImg} />
-                    <p className="p-3 text-sm  font-semibold text-center">
+                    <p className="pt-3 pb-1 ld:pb-2 px-1 text-sm  font-semibold text-center">
                       {" "}
-                      Internally (for strategic planning) <br /> To funders{" "}
+                      Internally <br /> (for strategic planning) <br /> To funders{" "}
                       <br />
                       To community
                     </p>
