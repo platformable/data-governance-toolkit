@@ -6,9 +6,9 @@ import dataDictionaryImg from "../public/data-governance-processes/Data-Dictiona
 import workflowAndPersonaMapImg from "../public/data-governance-processes/Workflow-and-Persona-Maps.svg";
 import databaseImg from "../public/data-governance-processes/Database.svg";
 import dataSetDirectoryImg from "../public/data-governance-processes/Dataset-Directory.svg";
-import integrationsImg from "../public/data-governance-processes/Integrations.svg";
 import programLogicModelImg from "../public/data-governance-processes/Program-Logic-Model.svg";
 import reportsImg from "../public/data-governance-processes/Reports.svg";
+import integrationsImg from "../public/data-governance-processes/Integrations.svg"
 import surveysImg from "../public/data-governance-processes/Surveys.svg";
 import standarizedDataDictionaryImg from "../public/data-governance-processes/Standarized-in-data-dictionary.svg";
 import maintainedInRealTimeImg from "../public/data-governance-processes/Maintained-in-real-time.svg";
@@ -61,13 +61,13 @@ export default function DataGovernanceProcesses() {
               <h2 className="pl-5 pt-16 pb-7 text-center lg:text-left">
                 Data Governance components
               </h2>
-              <ul className="grid grid-rows-9  md:11/12 lg:w-full md:grid-rows-5 md:grid-cols-2 md:gap-16 lg:gap-5 lg:flex lg:justify-around flex-wrap lg:mx-auto ">
+              <ul className="grid grid-rows-9 gap-10 md:11/12 lg:w-full md:grid-rows-5 md:grid-cols-2 md:gap-16 lg:gap-10 lg:flex lg:justify-around flex-wrap lg:mx-auto ">
                 <li className=" z-10 text-center grid-rows-2 lg:w-56">
                   <div className="w-10/12 h-56 mx-auto mb-0 data-gov-component bg-white font-bold shadow-2xl rounded-2xl p-4 my-6 block text-center">
                     <Image width={80} height={100} src={dataPolicyImg} />
                     <p className="font-bold">Data Policy</p>
                   </div>
-                  <div className="h-40 flex flex-col justify-content-center text-center italic lg:text-md px-6 dialog-section bg-main-color bg-blue-300 font-semibold border-2 border-white rounded-2xl">
+                  <div className="h-40 lg:h-48 flex flex-col justify-content-center text-center italic lg:text-md px-6 dialog-section bg-main-color bg-blue-300 font-semibold border-2 border-white rounded-2xl">
                     How do we manage data ethically and responsibly?
                   </div>
                 </li>
@@ -76,7 +76,7 @@ export default function DataGovernanceProcesses() {
                     <Image width={80} height={100} src={programLogicModelImg} />
                     <p className="font-bold">Program Logic Model</p>
                   </div>
-                  <div className="h-40 flex flex-col justify-content-center text-center italic lg:text-md px-6 dialog-section bg-main-color bg-blue-300 font-semibold border-2 border-white rounded-2xl">
+                  <div className="h-40 lg:h-48 flex flex-col justify-content-center text-center italic lg:text-md px-6 dialog-section bg-main-color bg-blue-300 font-semibold border-2 border-white rounded-2xl">
                     What do we need to collect and why?
                   </div>
                 </li>
@@ -85,7 +85,7 @@ export default function DataGovernanceProcesses() {
                     <Image width={80} height={100} src={dataSetDirectoryImg} />
                     <p className="font-bold">Dataset Directory</p>
                   </div>
-                  <div className="h-40 flex flex-col justify-content-center text-center italic lg:text-md px-6 dialog-section bg-main-color bg-blue-300 font-semibold border-2 border-white rounded-2xl">
+                  <div className="h-40 lg:h-48 flex flex-col justify-content-center text-center italic lg:text-md px-6 dialog-section bg-main-color bg-blue-300 font-semibold border-2 border-white rounded-2xl">
                     What external datasets can we use to demonstrate need and
                     impact?
                   </div>
@@ -95,7 +95,7 @@ export default function DataGovernanceProcesses() {
                     <Image width={80} height={100} src={dataDictionaryImg} />
                     <p className="font-bold">Data Dictionary</p>
                   </div>
-                  <div className="h-40 flex flex-col justify-content-center text-center italic lg:text-md px-6 dialog-section bg-main-color bg-blue-300 font-semibold border-2 border-white rounded-2xl">
+                  <div className="h-40 lg:h-48 flex flex-col justify-content-center text-center italic lg:text-md px-6 dialog-section bg-main-color bg-blue-300 font-semibold border-2 border-white rounded-2xl">
                     How do we standardise and consistently describe each data
                     item we collect?
                   </div>
@@ -109,7 +109,7 @@ export default function DataGovernanceProcesses() {
                     />
                     <p>Workflow and Persona Maps</p>
                   </div>
-                  <div className="h-40 flex flex-col justify-content-center text-center italic lg:text-md px-6 dialog-section bg-main-color bg-blue-300 font-semibold border-2 border-white rounded-2xl">
+                  <div className="h-40 lg:h-48 flex flex-col justify-content-center text-center italic lg:text-md px-6 dialog-section bg-main-color bg-blue-300 font-semibold border-2 border-white rounded-2xl">
                     What is the flow from collection to processing to analysing
                     to use? <br />
                     Who will use the data and how?
@@ -120,7 +120,7 @@ export default function DataGovernanceProcesses() {
                     <Image width={80} height={100} src={surveysImg} />
                     <p className="font-bold">Surveys</p>
                   </div>
-                  <div className="h-40 flex flex-col justify-content-center text-center italic lg:text-md px-6 dialog-section bg-main-color bg-blue-300 font-semibold border-2 border-white rounded-2xl">
+                  <div className="h-40 lg:h-48 flex flex-col justify-content-center text-center italic lg:text-md px-6 dialog-section bg-main-color bg-blue-300 font-semibold border-2 border-white rounded-2xl">
                     What are the standard data instruments/ surveys we use to
                     collect data?
                   </div>
@@ -130,7 +130,7 @@ export default function DataGovernanceProcesses() {
                     <Image width={80} height={100} src={databaseImg} />
                     <p className="font-bold">Database</p>
                   </div>
-                  <div className="h-40 flex flex-col justify-content-center text-center italic lg:text-md px-6 dialog-section bg-main-color bg-blue-300 font-semibold border-2 border-white rounded-2xl">
+                  <div className="h-40 lg:h-48 flex flex-col justify-content-center text-center italic lg:text-md px-6 dialog-section bg-main-color bg-blue-300 font-semibold border-2 border-white rounded-2xl">
                     How do we store all of the data?
                   </div>
                 </li>
@@ -139,7 +139,7 @@ export default function DataGovernanceProcesses() {
                     <Image width={80} height={100} src={integrationsImg} />
                     <p className="font-bold">Integrations</p>
                   </div>
-                  <div className="h-40 flex flex-col justify-content-center text-center italic lg:text-md px-6 dialog-section bg-main-color bg-blue-300 font-semibold border-2 border-white rounded-2xl">
+                  <div className="h-40 lg:h-48 flex flex-col justify-content-center text-center italic lg:text-md px-6 dialog-section bg-main-color bg-blue-300 font-semibold border-2 border-white rounded-2xl">
                     What external datasets can we use to demonstrate need and
                     impact?
                   </div>
@@ -149,7 +149,7 @@ export default function DataGovernanceProcesses() {
                     <Image width={80} height={100} src={reportsImg} />
                     <p className="font-bold">Reports</p>
                   </div>
-                  <div className="h-40 flex flex-col justify-content-center text-center italic lg:text-md px-6 dialog-section bg-main-color bg-blue-300 font-semibold border-2 border-white rounded-2xl">
+                  <div className="h-40 lg:h-48 flex flex-col justify-content-center text-center italic lg:text-md px-6 dialog-section bg-main-color bg-blue-300 font-semibold border-2 border-white rounded-2xl">
                     How do we report on the data findings to identified
                     personas?
                   </div>
@@ -162,7 +162,7 @@ export default function DataGovernanceProcesses() {
               </h2>
               <div
                 id="processes-agency-list-container"
-                className="grid grids-cols-1  items-center gap-4 md:gap-7 lg:grid-cols-7 lg:gap-2 lg:grid-rows-1"
+                className="grid grids-cols-1  items-center justify-items-center gap-4 md:gap-7 lg:grid-cols-7 lg:gap-2 lg:grid-rows-1"
               >
                 <div className="h-full w-full flex flex-col shadow-2xl rounded-2xl border-2 border-white">
                   <div className="h-3/6 bg-white flex flex-col items-center p-5 justify-items-center rounded-t-2xl">
@@ -180,7 +180,7 @@ export default function DataGovernanceProcesses() {
                     </p>
                   </div>
                 </div>
-                <Image width={100} height={100} src={integrationsImg} />
+                <img className="w-16 h-16 md:w-24 md:h-24"  src="/data-governance-processes/Integrations.svg" />
                 <div className="h-full w-full flex flex-col shadow-2xl rounded-2xl border-2 border-white ">
                   <div className="h-3/6 bg-white flex flex-col items-center p-5 justify-items-center rounded-t-2xl">
                     <Image width={60} height={65} src={databaseImg} />
@@ -200,7 +200,7 @@ export default function DataGovernanceProcesses() {
                     </p>
                   </div>
                 </div>
-                <Image width={100} height={100} src={integrationsImg} />
+                <img className="w-16 h-16 md:w-24 md:h-24"  src="/data-governance-processes/Integrations.svg" />
                 <div className="h-full w-full flex flex-col shadow-2xl rounded-2xl border-2 border-white ">
                   <div className="h-3/6 bg-white flex flex-col items-center  p-5  justify-items-center rounded-t-2xl">
                     <Image width={60} height={65} src={reportsImg} />
@@ -208,15 +208,15 @@ export default function DataGovernanceProcesses() {
                   </div>
                   <div className="h-3/6 bg-yellow-cream pt-2  flex flex-col items-center justify-items-center rounded-b-2xl">
                     <Image width={40} height={45} src={internallyImg} />
-                    <p className="p-3 text-sm  font-semibold text-center">
+                    <p className="pt-3 pb-1 ld:pb-2 px-1 text-sm  font-semibold text-center">
                       {" "}
-                      Internally (for strategic planning) <br /> To funders{" "}
+                      Internally <br /> (for strategic planning) <br /> To funders{" "}
                       <br />
                       To community
                     </p>
                   </div>
                 </div>
-                <Image width={100} height={100} src={integrationsImg} />
+                <img className="w-16 h-16 md:w-24 md:h-24"  src="/data-governance-processes/Integrations.svg" />
 
                 <div className="h-full w-full flex flex-col shadow-2xl rounded-2xl border-2 border-white ">
                   <div className="h-3/6 bg-white flex flex-col items-center   p-5 justify-items-center rounded-t-2xl">
