@@ -32,7 +32,7 @@ export default function Home() {
               Data that works for you
             </h1>
             <h2 className="col-start-2 sm:w-4/5 row-start-3 self-start">
-              Data systems for community health and non-profit-organizations
+              Data systems for community health and non-profit organizations
             </h2>
             <div className="col-start-2 row-start-4 self-start">
               <Image
