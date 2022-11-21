@@ -16,34 +16,34 @@ export default function Navigator() {
             height={50}
             alt="platformable-logo"
           ></Image>
-          <li className="p-3 pb-0 cursor-pointer flex flex-col nav-selection">
+          <li className="p-3 pb-0 cursor-pointer flex flex-col items-center nav-selection">
             <Link href="/">
               <a className="font-bold trackin-wide">Home</a>
             </Link>
-            <div className="nav-indicator"></div>
+            <div className="nav-indicator "></div>
 
           </li>
-          <li className="p-3 pb-0 cursor-pointer flex flex-col nav-selection">
+          <li className="p-3 pb-0 cursor-pointer flex flex-col items-center nav-selection">
             <Link href="/communityOrganizations">
               <a className="font-bold trackin-wide">Community Organizations</a>
             </Link>
-            <div className="nav-indicator"></div>
+            <div className="nav-indicator "></div>
 
           </li>
-          <li className="p-3 pb-0 cursor-pointer flex flex-col nav-selection">
+          <li className="p-3 pb-0 cursor-pointer flex flex-col items-center nav-selection">
             <Link href="/dataGovernanceProcesses">
               <a className="font-bold trackin-wide">
                 Our Data Governance processes
               </a>
             </Link>
-            <div className="nav-indicator"></div>
+            <div className="nav-indicator "></div>
 
           </li>
-          <li className="p-3 pb-0 cursor-pointer flex flex-col nav-selection">
+          <li className="p-3 pb-0 cursor-pointer flex flex-col items-center nav-selection ">
             <Link href="https://platformable.com/about">
               <a className="font-bold trackin-wide">About Us</a>
             </Link>
-            <div className="nav-indicator"></div>
+            <div className="nav-indicator "></div>
 
           </li>
         </ul>

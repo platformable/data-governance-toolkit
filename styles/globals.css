@@ -91,12 +91,13 @@ h3 {
 
 .nav-indicator {
   height: 3px;
-  /* border-radius: 30px; */
+  width: 1%;
   margin-top: 10px;
+  transition: all 0.5s ease-out;
 }
 .nav-selection:hover :last-child {
   background-color: #0f2d80;
-
+  width: 100%;
 }
 @media (min-width: 1024px) {
   .dialog-section::before {
