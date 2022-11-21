@@ -53,8 +53,7 @@ export default function Footer() {
 
         <div className="w-full h-full text-center sm:text-left sm:w-8/12  grid grid-cols-1 gap-7">
           <h2>
-            Learn about the key Data Governance components trough our free
-            course
+          Learn about the key Data Governance components through our free course
           </h2>
           <p className="text-2xl">
             You`ll have access to videos, notes and templates <br />

@@ -82,7 +82,22 @@ h3 {
     linear-gradient(180deg, #dee9ff 10%, #dfeaff 50%, #f5f8ff 100%) 0% 0%
     no-repeat padding-box;
 }
+.move-z-card {
+  transition: all 0.5s ease-out;
+}
+.move-z-card:hover {
+  transform: scale(1.05);
+}
 
+.nav-indicator {
+  height: 3px;
+  /* border-radius: 30px; */
+  margin-top: 10px;
+}
+.nav-selection:hover :last-child {
+  background-color: #0f2d80;
+
+}
 @media (min-width: 1024px) {
   .dialog-section::before {
     left: 38%;
