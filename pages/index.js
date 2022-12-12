@@ -25,13 +25,14 @@ export default function Home() {
           />
           <link rel="icon" href="/platformable-icon-logo.svg" />
         </Head>
-        <div className="bg-image-section">
-          <section className=" container flex flex-col px-8 pt-28 pb-7 sm:h-screen md:grid  md:pt-18  grid-cols-2 grid-rows-7 gap-9 sm:gap-2">
+        <div className="bg-image-section grid  grid-cols-2">
+          <div></div>
+          <section className=" flex flex-col px-8  col-span-2 pt-28 pb-7 sm:h-screen md:grid md:grid-cols-2  md:pt-18   grid-rows-7 gap-9 sm:gap-2">
             <h1 className="col-start-2  row-start-2 self-center">
               Data that works for you
             </h1>
             <h2 className="col-start-2 sm:w-4/5 row-start-3 self-start">
-              Data systems for community health and non-profit-organizations
+              Data systems for community health and non-profit organizations
             </h2>
             <div className="col-start-2 row-start-4 self-start">
               <Image
@@ -173,7 +174,7 @@ export default function Home() {
             </h3>
 
             <Link href="/communityOrganizations">
-              <div className="w-48 bg-main-color cursor-pointer rounded-lg border-solid border-2 border-yellow-400 p-5 md:row-start-2">
+              <div className="move-z-card w-48 bg-main-color cursor-pointer rounded-lg border-solid border-2 shadow-xl border-yellow-400 p-5 md:row-start-2">
                 <Image
                   src={iconCommunityOrg}
                   width={130}
@@ -187,7 +188,7 @@ export default function Home() {
             </Link>
 
             <Link href="/dataGovernanceProcesses">
-              <div className="w-48 bg-main-color cursor-pointer rounded-lg border-solid border-2 border-yellow-400 p-5 md:row-start-2">
+              <div className="move-z-card w-48 bg-main-color cursor-pointer rounded-lg border-solid border-2 shadow-xl border-yellow-400 p-5 md:row-start-2">
                 <Image
                   src={iconPlatformableProcesses}
                   width={130}
